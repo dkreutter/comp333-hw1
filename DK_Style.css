@@ -1,67 +1,106 @@
 body{
-
+    background-image: url("assets/background.png");
+    text-align: center;
 }
 
 p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+}
 
+a {
+    background-color: rgb(122, 122, 122);
+    color: rgb(216, 216, 216);
+    padding: 1em 1.5em;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+
+a:hover {
+    background-color: rgb(66, 66, 66);
 }
 
 img{
-
+    padding: 10px;
+    width: 100%;
 }
 
 ul{
-
+    margin: auto;
+    padding: 10px;
 }
 
 li{
 
 }
 
-input{
+label{
 
 }
+
+input[type=text]{
+    border: 3px solid rgb(122, 122, 122);
+}
+
+input[type=text]:focus {
+    border: 3px solid rgb(66, 66, 66);
+  }
 
 form{
 
 }
 
 .title{
-
+    font-size: 44px;
 }
 
 .subtitle{
-
+    font-size: 32px;
 }
 
 .imgbox{
-
+    width: 35%;
+    background-color: rgb(204, 204, 204);
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 1px 2px #666666;
+    text-align: center;
 }
 
 .imgcaption{
-
+    font-size: 18px;
+    font-style: italic;
 }
 
 .disclaimer{
-
+    font-size: 14px;
 }
 
 #box1{
-
+    left: 0px;
+    padding: 40px;
 }
 
 #box2{
-
+    right: 0px;
+    padding: 40px;
 }
 
 #box3{
+    left: 0px;
+    padding: 40px;
+}
 
+#box4{
+    right: 0px;
+    padding: 40px;
 }
 
 #service_disc{
-
+    padding: 10px;
+    margin-top: 200px;
 }
 
 #friend_disc{
-    
+    padding: 10px;
 }
