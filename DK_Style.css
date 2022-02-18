@@ -3,6 +3,10 @@ body{
     text-align: center;
 }
 
+hr{
+    margin: auto;
+}
+
 p{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 22px;
@@ -31,7 +35,7 @@ ul{
 }
 
 li{
-
+    margin: 0.5em 
 }
 
 label{
@@ -63,6 +67,9 @@ form{
     background-color: rgb(204, 204, 204);
     border: 1px solid;
     padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
     box-shadow: 1px 2px #666666;
     text-align: center;
 }
